@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from flask import Flask
+from flask import *
 import os
 # from flask_ngrok import run_with_ngrok '''local tunnel'''
 app = Flask(__name__)
