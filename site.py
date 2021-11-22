@@ -4,7 +4,7 @@ import os
 # from flask_ngrok import run_with_ngrok для локального запуска через туннель
 
 app = Flask(__name__)
-run_with_ngrok(app)
+# run_with_ngrok(app)
 
 # @app.route('/')
 # def index():
