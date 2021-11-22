@@ -1,1 +1,1 @@
-web: ptyhon site.py
+web: python site.py
