@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from flask import Flask
+from flask import *
 import os
 # from flask_ngrok import run_with_ngrok '''local tunnel'''
 
@@ -121,7 +121,7 @@ def form_sample():
 
 
 if __name__ == '__main__':
-        # app.run()
-        #app.run(port=5000, host='127.0.0.1')
     port = int(os.environ.get("PORT", 5000))
     app.run(host='0.0.0.0', port=port)
+    # app.run()
+    #app.run(port=5000, host='127.0.0.1')
