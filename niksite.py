@@ -20,11 +20,13 @@ def second():
     numbers = [str(i) for i in range(10)]
     return "<BR>".join(numbers)
 
+"""
 @app.route('/news')
 def news():
     with open("templates/news.json", "rt", encoding="utf8") as f:
         news_list = json.loads(f.read())
     return render_template('news1.html', news=news_list, title = 'Новости')
+"""
 
 @app.route('/first_page')
 def first():
