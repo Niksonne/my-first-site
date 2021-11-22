@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-from flask import *
+from flask import Flask
 import os
-# from flask_ngrok import run_with_ngrok для локального запуска через туннель
+# from flask_ngrok import run_with_ngrok '''local tunnel'''
 
 app = Flask(__name__)
-# run_with_ngrok(app)
+# run_with_ngrok(app) '''local tunnel'''
 
 # @app.route('/')
 # def index():
