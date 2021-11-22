@@ -1,21 +1,21 @@
 [
         {
             "title": "Главная страница",
-            "content": <a href="https://my-first-website-py.herokuapp.com/" target="_blank" rel="noopener">"Главная"</a>
+            "content": "<a href="https://my-first-website-py.herokuapp.com/" target="_blank" rel="noopener">Главная</a>"
         }
         {
             "title": "Новости",
-            "content": <a href="https://yandex.ru/news/rubric/world" target="_blank" rel="noopener">"Мировые новости: все мировые новости в Яндекс.Новостях."</a></p>
-            <img src = {url_for('static', filename='img/picture.jpg')} width = 100% />
+            "content": "<a href="https://yandex.ru/news/rubric/world" target="_blank" rel="noopener">Мировые новости: все мировые новости в Яндекс.Новостях.</a></p>
+            <img src = {url_for('static', filename='img/picture.jpg')} width = 100% />"
         },
         {
             "title": "Технологии",
-            "content": <a href="https://yandex.ru/news/rubric/computers" target="_blank" rel="noopener">"Новости технологий: игры, гаджеты, интернет в Яндекс.Новостях."</a></p>
-            <img src = {url_for('static', filename='img/picture.jpg')} width = 100% />
+            "content": "<a href="https://yandex.ru/news/rubric/computers" target="_blank" rel="noopener">Новости технологий: игры, гаджеты, интернет в Яндекс.Новостях.</a></p>
+            <img src = {url_for('static', filename='img/picture.jpg')} width = 100% />"
         },
         {
             "title": "Интересное",
-            "content": <a href="https://yandex.ru/news/rubric/personal_feed" target="_blank" rel="noopener">"Интересное: все интересное в Яндекс.Новостях."</a></p>
-            <img src = {url_for('static', filename='img/picture.jpg')} width = 100% />       
+            "content": "<a href="https://yandex.ru/news/rubric/personal_feed" target="_blank" rel="noopener">Интересное: все интересное в Яндекс.Новостях.</a></p>
+            <img src = {url_for('static', filename='img/picture.jpg')} width = 100% />"
         }
 ]
